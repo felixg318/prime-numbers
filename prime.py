@@ -15,11 +15,9 @@ def is_prime(num):
     return True
     
 n = int(sys.argv[1])
-divisor = 2
 counter = 0
 
-
-for i in range(541):
+for i in range(sys.maxsize):
     if counter == n:
         break
     if is_prime(i):
